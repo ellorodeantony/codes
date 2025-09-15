@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std ;
 main() {
- int a;cin>>a ;
- int n;cin>>n ;
- cout<<<<endl << n+1<<endl ;
+int n;cin>>n ;
+cin>>n ;
+ cout<<n<<endl ;
+ cout<< n+1<<endl ;
 }
