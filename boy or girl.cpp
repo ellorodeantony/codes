@@ -2,9 +2,9 @@
 using namespace std ;
 main () {
 string a ; cin>>a ;
-int b=a.size()-1 ;
-if (b%2>=1)
+int b=a.size() ;
+if (b%2==0)
 cout<<"CHAT WITH HER!" ;
-else (b%2==0)
+else
 cout<<"IGNORE HIM!"  ;
 }
