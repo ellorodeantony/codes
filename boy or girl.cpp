@@ -1,10 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std ;
 main () {
-string a ; cin>>a ;
-int b=a.size() ;
-if (b%2==0)
-cout<<"CHAT WITH HER!" ;
-else
-cout<<"IGNORE HIM!"  ;
+string username;
+    cin >> username;
+
+    set<char> distinctLetters;
+    for (char c : username) {
+        distinctLetters.insert(c);
+    }
+
+    if (distinctLetters.size() % 2 == 0) {
+        cout << "CHAT WITH HER!" << endl;
+    } else {
+        cout << "IGNORE HIM!" << endl;
+    }
 }
