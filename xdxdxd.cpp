@@ -3,7 +3,8 @@ using namespace std ;
 main ()
 {
     int n,m;cin>>n>>m;
-    if((n*m)%2==0)
+   if(min(n*m)%2==1)
+     cout<<"Akshat";
+      else
         cout<<"Malvika";
-    else cout<<"Akshat";
 }
